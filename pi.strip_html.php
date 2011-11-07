@@ -1,16 +1,13 @@
 <?php
 if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 
-ini_set('display_errors');
-error_reporting(E_ALL|E_STRICT);
-
 $plugin_info = array(
 	'pi_name' => 'Strip HTML',
 	'pi_version' =>'1.0',
 	'pi_author' =>'Steve Callan',
 	'pi_author_url' => 'http://www.stevecallan.com/',
 	'pi_description' => 'Strips out HTML content.',
-	'pi_usage' => trimee::usage()
+	'pi_usage' => strip_html::usage()
 );
 
 /**
